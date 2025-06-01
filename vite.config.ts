@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
+	base: "/paint-app/",
 	plugins: [
 		react(),
 		VitePWA({
@@ -36,5 +37,8 @@ export default defineConfig({
 		port: 3000,
 		strictPort: true,
 		open: true,
+	},
+	build: {
+		outDir: "docs",
 	},
 });
