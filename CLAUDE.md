@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+@docs/project-structure.md
+
 ## プロジェクト概要
 
 モバイルファーストのペイントアプリ（PWA）。React + TypeScript + Viteで構築。
